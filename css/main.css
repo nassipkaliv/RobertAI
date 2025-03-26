@@ -644,3 +644,22 @@ img {
   content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuNTkxOCA1LjY2NjY3TDUuMTQwMTggOUwxMi41OTE4IDIiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIzIi8+Cjwvc3ZnPg==);
 }
 
+.ecosystem-container {
+  padding-top: 100px;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ecosystem-img {
+  width: 50%;
+  flex-basis: 50%;
+  padding: 0 15px 30px;
+}
+
+.ecosystem-content {
+  width: auto;
+  padding: 0 15px 30px;
+}
