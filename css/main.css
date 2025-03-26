@@ -7,6 +7,10 @@ body {
   background-color: #001017;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
@@ -94,6 +98,11 @@ img {
   font-weight: 500;
   text-align: center;
   text-decoration: none;
+}
+
+.topbar-btn:hover {
+  background-color: #2bb2f6 !important;
+  color: #fff !important;
 }
 
 .header {
@@ -364,4 +373,120 @@ img {
   background-color: #2bb2f6;
   margin-top: -10px;
   color: #000;
+}
+
+.rob-divider {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  width: 100%;
+  height: 1px;
+  max-width: 1060px;
+  background-color: #888;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.sec-title {
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.1em;
+  color: #f1f1f1;
+}
+
+.rob-text {
+  color: #f1f1f1;
+  margin-top: 20px;
+  line-height: 1.2em;
+  font-size: 22px;
+}
+
+.web-card-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.web-card.first {
+  background-image: linear-gradient(109deg, #7a26ae, #3d649b 98.5%);
+}
+
+.web-card.second {
+  background-image: linear-gradient(110deg, #5052a1 2.34%, #24aeb8 99.94%);
+}
+
+.web-card {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  border-radius: 25px;
+  padding: 0 40px 30px;
+  transition: .2s ease-in-out;
+  position: relative;
+}
+
+.web-card-wrapper {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.web-card-wrapper:hover .web-card-img {
+  transform: translateY(-42px);
+}
+
+.web-card-img {
+  border-radius: 100%;
+  border: 1px solid #3a3a3a;
+  transition: opacity .25s ease-in-out;
+  margin-bottom: -30px;
+  transform: translateY(-30px);
+  width: 138px;
+  height: 138px;
+}
+
+.web-card-content {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.web-card-content h3 {
+  color: #fff;
+  margin: 0 0 10px !important;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, .4);
+  text-align: center;
+}
+
+.web-card-content p {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0 !important;
+  text-wrap: balance;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.rob-accent {
+  color: #2bb2f6;
+}
+
+.web-card-btn {
+  min-width: 240px !important;
+  margin-top: auto;
+}
+
+.web-card-btn:hover {
+  background-color: #000 !important;
+  color: #fff !important;
 }
