@@ -663,3 +663,31 @@ img {
   width: auto;
   padding: 0 15px 30px;
 }
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1070px;
+  margin: 0 auto !important;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #000;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  transition: .1s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
