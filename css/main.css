@@ -150,7 +150,7 @@ img {
   font-size: 18px;
 }
 
-.header-right .app-button {
+.app-button {
   max-width: 320px;
   display: flex;
   padding: 8px 24px;
@@ -165,21 +165,32 @@ img {
   transition: .3s ease-in-out;
   border: 1px #000;
   margin-left: 6px;
+  text-decoration: none;
 }
 
-.header-right .app-button:hover {
+.app-button:hover {
   color: #fff !important;
   background-color: #2bb2f6 !important;
 }
 
-#intro {
-  margin: 0 auto;
+.app-button.whitepaper {
+  background-color: #2bb2f6 !important;
+  color: #fff !important;
+}
+
+.app-button.whitepaper:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.site-section {
   display: flex;
   justify-content: center;
 }
 
 .container {
   max-width: 1070px;
+  width: 100%;
 }
 
 .news-container {
@@ -264,6 +275,57 @@ img {
 .news-card-badge-month {
   margin-top: 5px;
   font-size: .7em;
-  text-align: center;
-  
+  text-align: center; 
+}
+
+.rob-subtitle {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.125em;;
+}
+
+.rob-title {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 73px;
+  font-weight: 700;
+  line-height: 1.07em;
+}
+
+.video-container {
+  min-height: 400px;
+  aspect-ratio: 1280 / 584;
+  border-radius: 50px;
+  overflow: hidden;
+  display: grid;
+}
+
+.video-container-buttons {
+  display: flex;
+  position: relative;
+  z-index: 9;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.video-container-bottom {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.video-desktop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  display: block;
+  min-height: 400px;
+}
+
+.video-container-top {
+  padding: 50px;
+  grid-row: 1;
+  grid-column: 1;
 }
