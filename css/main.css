@@ -928,6 +928,36 @@ img {
   line-height: 1.6;
 }
 
+.facebook-icon:hover {
+  color: #3a589d !important;
+  background-color: rgb(58, 88, 157) !important;
+  border-color: rgb(58, 88, 157) !important;
+}
+
+.twitter-icon:hover {
+  background-color: rgb(36,120,186) !important;
+  border-color: rgb(36,120,186) !important;
+  color: #2478ba !important;
+}
+
+.mail-icon:hover {
+  color: #111 !important;
+  background-color: rgb(17,17,17) !important;
+  border-color: rgb(17,17,17) !important;
+}
+
+.pinterest-icon:hover {
+  color: #cb2320 !important;
+  background-color: rgb(203, 35, 32) !important;
+  border-color: rgb(203, 35, 32) !important;
+}
+
+.linkedin-icon:hover {
+  background-color: rgb(0, 114, 183) !important;
+  border-color: rgb(0, 114, 183) !important;
+  color: #0072b7 !important;
+}
+
 @media screen and (min-width: 850px) {
   .news-info-wrapper {
     max-width: 83.3%;
