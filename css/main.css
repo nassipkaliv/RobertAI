@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #001017;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -987,7 +988,24 @@ img {
       gap: 40px;
       flex-direction: column;
   }
+
+  .hero-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 1.28em;
+    gap: 20px 10px;
+    min-height: 90px;
+  }
+
+  .hero-card {
+    flex: 1;
+    min-width: 180px;
+    padding: 0;
+  }
 }
+
 
 @media (max-width: 849px) {
   .back-to-top.hide-for-medium {
