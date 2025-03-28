@@ -15,8 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
   const backToTopButton = document.querySelector('#top-link');
 
+  if (!backToTopButton) {
+    console.error('Element with id "top-link" not found in the DOM.');
+    return;
+  }
+
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) { 
+    if (window.scrollY > 300) {
+      backToTopButton.classList.add('active');
     } else {
       backToTopButton.classList.remove('active');
     }
@@ -26,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' 
+      behavior: 'smooth'
     });
   });
 });
