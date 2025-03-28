@@ -223,6 +223,10 @@ img {
   display: flex;
 }
 
+.news-container {
+  min-height: 400px;
+}
+
 .news-card-container {
   padding: 0 15px 30px;
   width: 33.3%;
