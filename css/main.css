@@ -810,6 +810,8 @@ img {
 .news-info-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
   max-width: 892px !important;
 }
 
@@ -945,6 +947,12 @@ img {
   border-color: rgb(58, 88, 157) !important;
 }
 
+.whatsapp-icon:hover {
+  color: #51cb5a !important;
+  background-color: rgb(81, 203, 90);
+  border-color: rgb(81, 203, 90);
+}
+
 .twitter-icon:hover {
   background-color: rgb(36,120,186) !important;
   border-color: rgb(36,120,186) !important;
@@ -977,6 +985,15 @@ img {
   display: none;
 }
 
+
+.mobile-menu {
+  display: none;
+  opacity: 0;
+}
+
+.whatsapp-icon {
+  display: none;
+}
 
 @media screen and (min-width: 850px) {
   .news-info-wrapper {
@@ -1027,6 +1044,10 @@ img {
 @media (max-width: 849px) {
   .back-to-top.hide-for-medium {
     display: none; 
+  }
+
+  .whatsapp-icon {
+    display: flex;
   }
 
   .menu-bar {
@@ -1086,6 +1107,7 @@ img {
   }
 
 .mobile-menu {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -1224,6 +1246,13 @@ img {
   background-color: #2bb2f6;
   color: #fff;
 }
+
+.news-info-wrapper {
+  max-width: 100% !important;
+  flex-basis: 100%;
+  width: auto;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -1340,6 +1369,10 @@ img {
     height: 100%;
     object-fit: cover;
     pointer-events: none;
+  }
+
+  .nav-prev i, .nav-next i {
+    display: none;
   }
 }
 
