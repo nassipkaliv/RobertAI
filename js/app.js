@@ -30,3 +30,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const menuBar = document.querySelector('.menu-bar');
+  const mobileMenu = document.querySelector('#mobile-menu');
+  const closeMenu = document.querySelector('#mobile-menu-close');
+
+  menuBar.addEventListener('click', () => {
+    mobileMenu.classList.add('active');
+  });
+
+  closeMenu.addEventListener('click', () => {
+    mobileMenu.classList.remove('active');
+  });
+});
