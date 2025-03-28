@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  font-display: swap;
   margin: 0;
   padding: 0;
   background-color: #001017;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 html {
@@ -143,6 +152,7 @@ img {
   display: flex;
   align-items: center;
   gap: 18px;
+  min-height: 34px;
 }
 
 .header-right a {
@@ -160,6 +170,7 @@ img {
 .header-link {
   color: #fff !important;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .header-link:hover {
@@ -168,6 +179,12 @@ img {
 
 .header-right .social-icons a {
   font-size: 18px;
+}
+
+.header-right .app-button {
+  width: 78px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .app-button {
@@ -314,7 +331,8 @@ img {
   margin-bottom: 12px;
   font-size: 32px;
   font-weight: 300;
-  line-height: 1.125em;;
+  line-height: 1.125em;
+  min-height: 36px;
 }
 
 .rob-title {
@@ -323,6 +341,7 @@ img {
   font-size: 73px;
   font-weight: 700;
   line-height: 1.07em;
+  min-height: 78px;
 }
 
 .video-container {
@@ -348,6 +367,7 @@ img {
 .video-container-bottom {
   grid-row: 1;
   grid-column: 1;
+  
 }
 
 .video-desktop {
@@ -1041,6 +1061,15 @@ img {
 
   .rob-text {
     font-size: 20px;
+  }
+
+  .rob-title {
+    font-size: 56px;
+    min-height: 60px;
+  }
+  .rob-subtitle {
+    font-size: 28px;
+    min-height: 32px;
   }
 }
 
