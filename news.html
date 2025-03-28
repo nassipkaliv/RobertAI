@@ -7,24 +7,42 @@
   <meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="description" content="ROBERT AI combines cutting-edge AI with blockchain, specializing in realistic graphical modeling and ERC-20 crypto token integration.">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ai-robert.com/assets/img/news1.webp">
   <meta name="author" content="admin">
   <meta name="date" content="">
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//www.googletagmanager.com">
   <meta property="og:site_name" content="Robert AI">
-  <meta property="og:title" content="Robert AI – AI-Powered Solutions">
-  <meta property="og:url" content="https://ai-robert.com">
+  <meta property="og:title" content="ERC20 Crypto News - Robert AI">
+  <meta property="og:url" content="https://ai-robert.com/news.html">
+  <meta property="og:image" content="https://ai-robert.com/assets/img/news1.webp">
+  <meta property="og:description" content="Stay updated with the latest ERC20 Crypto News from Robert AI, covering AI-powered video generation and blockchain integration.">
   <meta property="twitter:site" content="@YourTwitterHandle">
   <title>ERC20 Crypto News - Robert AI</title>
-  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Предварительная загрузка -->
+  <link rel="preload" href="assets/img/header.webp" as="image">
+  <link rel="preload" href="css/main.css" as="style">
+
+  <!-- Локальный Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print" onload="this.media='all'">
+
+  <!-- Критический CSS -->
+  <style>
+    .header { height: 80px; background: #000; display: flex; justify-content: center; }
+    .header-container { display: flex; align-items: center; width: 100%; padding: 0 80px; justify-content: space-between; }
+    .header-logo { max-height: 80px; }
+    .news-content { padding-top: 30px; padding-bottom: 30px; max-width: 892px; margin: 0 auto; }
+    .news-title { text-align: center; font-weight: 700; font-size: 2em; color: #fff; }
+  </style>
+
+  <!-- Основной CSS -->
+  <link rel="stylesheet" href="css/main.css" media="print" onload="this.media='all'">
 </head>
 <body>
-  
   <section class="site-head">
     <div class="topbar">
       <div class="topbar-container">
         <div class="topbar-left">
-          <img src="assets/img/head-logo.webp" alt="logo" class="topbar-logo-img" loading="lazy">
+          <img src="assets/img/head-logo.webp" alt="logo" class="topbar-logo-img" loading="lazy" width="50" height="50">
           <p class="topbar-logo-text">$ROBERT</p>
         </div>
         <div class="topbar-right">
@@ -33,12 +51,12 @@
         </div>
       </div>
     </div>
-  
+
     <div class="header">
       <div class="header-container">
         <div class="header-left">
           <a href="#">
-            <img src="assets/img/header.webp" alt="logo" class="header-logo" loading="lazy">
+            <img src="assets/img/header.webp" alt="logo" class="header-logo" loading="lazy" width="197" height="42">
           </a>
         </div>
         <div class="header-right">
@@ -50,10 +68,10 @@
           <a href="news.html" class="header-link">News</a>
           <div class="social-icons">
             <a href="https://x.com/RobertonERC20">
-              <img src="assets/img/x.svg" class="social-icons-img" alt="x" loading="lazy">
+              <img src="assets/img/x.svg" class="social-icons-img" alt="X" loading="lazy" width="50" height="50">
             </a>
             <a href="https://t.me/RobertAIPortal">
-              <img src="assets/img/telegram.svg" class="social-icons-img" alt="telegram" loading="lazy">
+              <img src="assets/img/telegram.svg" class="social-icons-img" alt="Telegram" loading="lazy" width="50" height="50">
             </a>
           </div>
           <a href="https://app.ai-robert.com/" class="app-button">App</a>
@@ -64,11 +82,13 @@
       </div>
     </div>
 
-
     <div class="mobile-menu" id="mobile-menu">
       <div class="mobile-menu-header">
         <button title="Close (Esc)" type="button" class="mobile-menu-close" id="mobile-menu-close">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
         </button>
       </div>
       <div class="mobile-menu-content">
@@ -80,18 +100,16 @@
         <a href="news.html" class="menu-item">News</a>
         <div class="mobile-social-icons">
           <a href="https://x.com/RobertonERC20">
-            <img src="assets/img/x.svg" class="social-icons-img" alt="x" loading="lazy">
+            <img src="assets/img/x.svg" class="social-icons-img" alt="X" loading="lazy" width="50" height="50">
           </a>
           <a href="https://t.me/RobertAIPortal">
-            <img src="assets/img/telegram.svg" class="social-icons-img" alt="telegram" loading="lazy">
+            <img src="assets/img/telegram.svg" class="social-icons-img" alt="Telegram" loading="lazy" width="50" height="50">
           </a>
         </div>
         <a href="https://app.ai-robert.com/" class="app-button">App</a>
       </div>
     </div>
-
   </section>
-  
 
   <section class="site-section" id="intro">
     <div class="container">
@@ -101,16 +119,14 @@
           <div class="news-card-container">
             <div class="news-card">
               <a href="news-info.html">
-                <img src="assets/img/news1.webp" alt="news-img" class="news-card-img" loading="lazy">
+                <img src="assets/img/news1.webp" alt="Fundamental Marketing Strategy" class="news-card-img" loading="lazy" width="300" height="200">
               </a>
               <h5 class="news-card-title larger">
-                <a href="news-info.html">
-                  Fundamental Marketing Strategy
-                </a>
+                <a href="news-info.html">Fundamental Marketing Strategy</a>
               </h5>
               <div class="news-divider"></div>
               <p class="news-card-text">
-                Our core marketing strategy is built on sustainable organic traffic generation, ensuring a steady influx...					
+                Our core marketing strategy is built on sustainable organic traffic generation, ensuring a steady influx...
               </p>
               <div class="news-card-badge">
                 <div class="news-card-badge-day">15</div>
@@ -121,12 +137,10 @@
           <div class="news-card-container">
             <div class="news-card">
               <a href="news-info.html">
-                <img src="assets/img/news2.webp" alt="news-img" class="news-card-img" loading="lazy">
+                <img src="assets/img/news2.webp" alt="Crypto Updates Coming to Robert AI" class="news-card-img" loading="lazy" width="300" height="200">
               </a>
               <h5 class="news-card-title larger">
-                <a href="news-info.html">
-                  Crypto Updates Coming to Robert AI
-                </a>
+                <a href="news-info.html">Crypto Updates Coming to Robert AI</a>
               </h5>
               <div class="news-divider"></div>
               <p class="news-card-text">
@@ -141,12 +155,10 @@
           <div class="news-card-container">
             <div class="news-card">
               <a href="news-info.html">
-                <img src="assets/img/news3.webp" alt="news-img" class="news-card-img" loading="lazy">
+                <img src="assets/img/news3.webp" alt="Why Robert AI Can Outperform the Meme Token SPX6900" class="news-card-img" loading="lazy" width="300" height="200">
               </a>
               <h5 class="news-card-title larger">
-                <a href="news-info.html">
-                  Why Robert AI Can Outperform the Meme Token SPX6900
-                </a>
+                <a href="news-info.html">Why Robert AI Can Outperform the Meme Token SPX6900</a>
               </h5>
               <div class="news-divider"></div>
               <p class="news-card-text">
@@ -163,16 +175,14 @@
           <div class="news-card-container">
             <div class="news-card">
               <a href="news-info.html">
-                <img src="assets/img/news4.webp" alt="news-img" class="news-card-img" loading="lazy">
+                <img src="assets/img/news4.webp" alt="ROBERT AI Token is Rapidly Growing in SEO" class="news-card-img" loading="lazy" width="300" height="200">
               </a>
               <h5 class="news-card-title larger">
-                <a href="news-info.html">
-                  ROBERT AI Token is Rapidly Growing in SEO
-                </a>
+                <a href="news-info.html">ROBERT AI Token is Rapidly Growing in SEO</a>
               </h5>
               <div class="news-divider"></div>
               <p class="news-card-text">
-                We are excited to announce that ROBERT AI is making significant progress in SEO development....
+                We are excited to announce that ROBERT AI is making significant progress in SEO development...
               </p>
               <div class="news-card-badge">
                 <div class="news-card-badge-day">27</div>
@@ -183,12 +193,10 @@
           <div class="news-card-container">
             <div class="news-card">
               <a href="news-info.html">
-                <img src="assets/img/news5.webp" alt="news-img" class="news-card-img" loading="lazy">
+                <img src="assets/img/news5.webp" alt="ERC20 Crypto Token ROBERT AI – Official Launch Coming Soon!" class="news-card-img" loading="lazy" width="300" height="200">
               </a>
               <h5 class="news-card-title larger">
-                <a href="news-info.html">
-                  ERC20 Crypto Token ROBERT AI – Official Launch Coming Soon!
-                </a>
+                <a href="news-info.html">ERC20 Crypto Token ROBERT AI – Official Launch Coming Soon!</a>
               </h5>
               <div class="news-divider"></div>
               <p class="news-card-text">
@@ -203,12 +211,10 @@
           <div class="news-card-container">
             <div class="news-card">
               <a href="news-info.html">
-                <img src="assets/img/news6.webp" alt="news-img" class="news-card-img" loading="lazy">
+                <img src="assets/img/news6.webp" alt="Robert AI – News Section Launch!" class="news-card-img" loading="lazy" width="300" height="200">
               </a>
               <h5 class="news-card-title larger">
-                <a href="news-info.html">
-                  Robert AI – News Section Launch!
-                </a>
+                <a href="news-info.html">Robert AI – News Section Launch!</a>
               </h5>
               <div class="news-divider"></div>
               <p class="news-card-text">
@@ -225,25 +231,24 @@
     </div>
   </section>
 
-
   <footer class="footer">
     <section class="site-section section">
       <div class="container">
         <div class="footer-container">
           <div>
-            <img src="assets/img/header.webp" height="42" width="197" alt="Rob AI Logo" class="footer-logo"> 
+            <img src="assets/img/header.webp" height="42" width="197" alt="Rob AI Logo" class="footer-logo">
           </div>
-          <div class="footer-links"> 
-            <a class="footer-link" href="https://app.ai-robert.com/" target="_blank">App</a> 
-            <a class="footer-link" href="/Whitepaper.pdf" download="" target="_blank">Whitepaper</a>
-            <div class="footer-icon-links"> 
-              <a class="footer-link" href="https://x.com/RobertonERC20" target="_blank" aria-label="Read us on X"> 
-                <img src="assets/img/x.svg" height="50" width="50" aria-hidden="true"> 
-              </a> 
-              <a class="footer-link" href="https://t.me/RobertAIPortal" target="_blank" aria-label="Read us on Telegram"> 
-                <img src="assets/img/telegram.svg" height="50" width="50" aria-hidden="true"> 
-              </a> 
-            </div> 
+          <div class="footer-links">
+            <a class="footer-link" href="https://app.ai-robert.com/" target="_blank">App</a>
+            <a class="footer-link" href="/Whitepaper.pdf" download target="_blank">Whitepaper</a>
+            <div class="footer-icon-links">
+              <a class="footer-link" href="https://x.com/RobertonERC20" target="_blank" aria-label="Read us on X">
+                <img src="assets/img/x.svg" height="50" width="50" alt="X" loading="lazy">
+              </a>
+              <a class="footer-link" href="https://t.me/RobertAIPortal" target="_blank" aria-label="Read us on Telegram">
+                <img src="assets/img/telegram.svg" height="50" width="50" alt="Telegram" loading="lazy">
+              </a>
+            </div>
           </div>
         </div>
       </div>
