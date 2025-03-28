@@ -8,6 +8,13 @@
 body {
   font-family: "Raleway", "Helvetica", "Arial", sans-serif;
   font-display: swap;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  font-display: swap;
   margin: 0;
   padding: 0;
   background-color: #001017;
@@ -72,6 +79,7 @@ img {
   max-width: 1080px !important;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: auto;
 }
 
 .topbar-left {
@@ -142,6 +150,7 @@ img {
   padding-left: 80px !important;
   padding-right: 80px !important;
   justify-content: space-between;
+  min-height: auto;
 }
 
 .header-logo {
@@ -227,6 +236,7 @@ img {
 }
 
 .container {
+  min-height: auto;
   max-width: 1070px;
   width: 100%;
 }
@@ -260,6 +270,7 @@ img {
   width: 100%;
   object-fit: cover;
   height: 180px !important;
+  aspect-ratio: 1 / 1;
 }
 
 .news-card-title {
@@ -413,7 +424,7 @@ img {
 
 .hero-card:hover {
   background-color: #2bb2f6;
-  margin-top: -10px;
+  transform: translateY(-10px);
   color: #000;
 }
 
