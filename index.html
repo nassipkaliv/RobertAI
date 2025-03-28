@@ -7,25 +7,38 @@
   <meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="description" content="ROBERT AI combines cutting-edge AI with blockchain, specializing in realistic graphical modeling and ERC-20 crypto token integration.">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ai-robert.com/assets/img/header.webp">
   <meta name="author" content="admin">
   <meta name="date" content="">
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//www.googletagmanager.com">
   <meta property="og:site_name" content="Robert AI">
   <meta property="og:title" content="Robert AI – AI-Powered Solutions">
   <meta property="og:url" content="https://ai-robert.com">
+  <meta property="og:image" content="https://ai-robert.com/assets/img/header.webp">
+  <meta property="og:description" content="ROBERT AI combines cutting-edge AI with blockchain, specializing in realistic graphical modeling and ERC-20 crypto token integration.">
   <meta property="twitter:site" content="@YourTwitterHandle">
-  <title>Robert AI - AI-Powered Graphics &amp; ERC-20 Crypto Token</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <title>Robert AI - AI-Powered Graphics & ERC-20 Crypto Token</title>
+
+  <link rel="preload" href="assets/img/header.webp" as="image">
+  <link rel="preload" href="css/main.css" as="style">
+
+
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" media="print" onload="this.media='all'">
+
+
+  <style>
+    .header { height: 80px; background: #000; display: flex; justify-content: center; }
+    .header-container { display: flex; align-items: center; width: 100%; padding: 0 80px; justify-content: space-between; }
+    .header-logo { max-height: 80px; }
+  </style>
+
+  <link rel="stylesheet" href="css/main.css" media="print" onload="this.media='all'">
 </head>
 <body>
-  
   <section class="site-head">
     <div class="topbar">
       <div class="topbar-container">
         <div class="topbar-left">
-          <img src="assets/img/head-logo.webp" alt="logo" class="topbar-logo-img" loading="lazy">
+          <img src="assets/img/head-logo.webp" alt="logo" class="topbar-logo-img" loading="lazy" width="50" height="50">
           <p class="topbar-logo-text">$ROBERT</p>
         </div>
         <div class="topbar-right">
@@ -34,12 +47,12 @@
         </div>
       </div>
     </div>
-  
+
     <div class="header">
       <div class="header-container">
         <div class="header-left">
           <a href="#">
-            <img src="assets/img/header.webp" alt="logo" class="header-logo" loading="lazy">
+            <img src="assets/img/header.webp" alt="logo" class="header-logo" loading="lazy" width="197" height="42">
           </a>
         </div>
         <div class="header-right">
@@ -51,10 +64,10 @@
           <a href="news.html" class="header-link">News</a>
           <div class="social-icons">
             <a href="https://x.com/RobertonERC20">
-              <img src="assets/img/x.svg" class="social-icons-img" alt="x" loading="lazy">
+              <img src="assets/img/x.svg" class="social-icons-img" alt="X" loading="lazy" width="50" height="50">
             </a>
             <a href="https://t.me/RobertAIPortal">
-              <img src="assets/img/telegram.svg" class="social-icons-img" alt="telegram" loading="lazy">
+              <img src="assets/img/telegram.svg" class="social-icons-img" alt="Telegram" loading="lazy" width="50" height="50">
             </a>
           </div>
           <a href="https://app.ai-robert.com/" class="app-button">App</a>
@@ -65,11 +78,13 @@
       </div>
     </div>
 
-
     <div class="mobile-menu" id="mobile-menu">
       <div class="mobile-menu-header">
         <button title="Close (Esc)" type="button" class="mobile-menu-close" id="mobile-menu-close">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
         </button>
       </div>
       <div class="mobile-menu-content">
@@ -81,16 +96,15 @@
         <a href="news.html" class="menu-item">News</a>
         <div class="mobile-social-icons">
           <a href="https://x.com/RobertonERC20">
-            <img src="assets/img/x.svg" class="social-icons-img" alt="x" loading="lazy">
+            <img src="assets/img/x.svg" class="social-icons-img" alt="X" loading="lazy" width="24" height="24">
           </a>
           <a href="https://t.me/RobertAIPortal">
-            <img src="assets/img/telegram.svg" class="social-icons-img" alt="telegram" loading="lazy">
+            <img src="assets/img/telegram.svg" class="social-icons-img" alt="Telegram" loading="lazy" width="24" height="24">
           </a>
         </div>
         <a href="https://app.ai-robert.com/" class="app-button">App</a>
       </div>
     </div>
-
   </section>
 
   <section class="site-section" id="intro">
@@ -99,16 +113,14 @@
         <div class="news-card-container">
           <div class="news-card">
             <a href="news-info.html">
-              <img src="assets/img/news1.webp" alt="news-img" class="news-card-img" loading="lazy">
+              <img src="assets/img/news1.webp" alt="Fundamental Marketing Strategy" class="news-card-img" loading="lazy" width="300" height="200">
             </a>
             <h5 class="news-card-title">
-              <a href="news-info.html">
-                Fundamental Marketing Strategy
-              </a>
+              <a href="news-info.html">Fundamental Marketing Strategy</a>
             </h5>
             <div class="news-divider"></div>
             <p class="news-card-text">
-              Our core marketing strategy is built on sustainable organic traffic generation, ensuring a steady influx...					
+              Our core marketing strategy is built on sustainable organic traffic generation, ensuring a steady influx...
             </p>
             <div class="news-card-badge">
               <div class="news-card-badge-day">15</div>
@@ -119,12 +131,10 @@
         <div class="news-card-container">
           <div class="news-card">
             <a href="news-info.html">
-              <img src="assets/img/news2.webp" alt="news-img" class="news-card-img" loading="lazy">
+              <img src="assets/img/news2.webp" alt="Crypto Updates Coming to Robert AI" class="news-card-img" loading="lazy" width="300" height="200">
             </a>
             <h5 class="news-card-title">
-              <a href="news-info.html">
-                Crypto Updates Coming to Robert AI
-              </a>
+              <a href="news-info.html">Crypto Updates Coming to Robert AI</a>
             </h5>
             <div class="news-divider"></div>
             <p class="news-card-text">
@@ -139,12 +149,10 @@
         <div class="news-card-container">
           <div class="news-card">
             <a href="news-info.html">
-              <img src="assets/img/news3.webp" alt="news-img" class="news-card-img" loading="lazy">
+              <img src="assets/img/news3.webp" alt="Why Robert AI Can Outperform the Meme Token SPX6900" class="news-card-img" loading="lazy" width="300" height="200">
             </a>
             <h5 class="news-card-title">
-              <a href="news-info.html">
-                Why Robert AI Can Outperform the Meme Token SPX6900
-              </a>
+              <a href="news-info.html">Why Robert AI Can Outperform the Meme Token SPX6900</a>
             </h5>
             <div class="news-divider"></div>
             <p class="news-card-text">
@@ -169,31 +177,27 @@
       <div class="video-container">
         <div class="video-container-top">
           <div class="video-container-buttons">
-            <a class="app-button whitepaper video-btn" href="Whitepaper.pdf">
-              Whitepaper
-            </a>
-            <a class="app-button video-btn" href="https://app.ai-robert.com/videos/">
-              Try it now!
-            </a>
+            <a class="app-button whitepaper video-btn" href="Whitepaper.pdf">Whitepaper</a>
+            <a class="app-button video-btn" href="https://app.ai-robert.com/videos/">Try it now!</a>
           </div>
         </div>
         <div class="video-container-bottom">
-          <video class="video-desktop" autoplay="" loop="" muted="" width="300" height="150" preload="metadata" playsinline="" loading="lazy">
+          <video class="video-desktop" autoplay loop muted preload="metadata" playsinline poster="assets/img/preview_desktop_poster.webp" width="300" height="150" loading="lazy">
             <source src="assets/img/preview_desktop.mp4" type="video/mp4">
           </video>
-          <video class="class video-mobile" autoplay="" loop="" muted=""  preload="metadata" playsinline="" loading="lazy">
+          <video class="video-mobile" autoplay loop muted preload="metadata" playsinline poster="assets/img/preview_mobile_poster.webp" width="300" height="150" loading="lazy">
             <source src="assets/img/preview_mobile.mp4" type="video/mp4">
           </video>
         </div>
       </div>
-      <div class="hero-card-container"> 
+      <div class="hero-card-container">
         <div class="hero-card">80+ high-quality avatars</div>
-        <div class="hero-card">75+ languages</div> 
-        <div class="hero-card">450+ voices</div> 
-        <div class="hero-card">Custom avatars</div> 
-        <div class="hero-card">AI Storyboard</div> 
-        <div class="hero-card">AI script crafting</div> 
-        <div class="hero-card">Multi-lingual voice cloning</div> 
+        <div class="hero-card">75+ languages</div>
+        <div class="hero-card">450+ voices</div>
+        <div class="hero-card">Custom avatars</div>
+        <div class="hero-card">AI Storyboard</div>
+        <div class="hero-card">AI script crafting</div>
+        <div class="hero-card">Multi-lingual voice cloning</div>
       </div>
     </div>
   </section>
@@ -202,9 +206,7 @@
 
   <section class="site-section section" id="about">
     <div class="container">
-      <h2 class="sec-title">
-        Creating Videos Has Never Been Easier and More Secure
-      </h2>
+      <h2 class="sec-title">Creating Videos Has Never Been Easier and More Secure</h2>
       <p class="rob-text">
         Our platform is built for creators who value security and control. With<br>
         on-premise AI processing, your data stays local, and we never retrain or<br>
@@ -215,66 +217,57 @@
       <div class="web-card-container">
         <div class="web-card first">
           <div class="web-card-wrapper">
-            <img src="assets/img/web-card-img1.webp" alt="web-card-img" class="web-card-img" loading="lazy">
+            <img src="assets/img/web-card-img1.webp" alt="Developers" class="web-card-img" loading="lazy" width="300" height="200">
             <div class="web-card-content">
               <h3>Developers</h3>
               <p>Bring your idea into video <span class="rob-accent">easier</span></p>
             </div>
-            <a class="app-button web-card-btn" href="#" target="_blank">
-              Try it now!
-            </a>
+            <a class="app-button web-card-btn" href="#" target="_blank">Try it now!</a>
           </div>
         </div>
         <div class="web-card second">
           <div class="web-card-wrapper">
-            <img src="assets/img/web-card-img2.webp" alt="web-card-img" class="web-card-img" loading="lazy">
+            <img src="assets/img/web-card-img2.webp" alt="Community" class="web-card-img" loading="lazy" width="300" height="200">
             <div class="web-card-content">
               <h3>Community</h3>
               <p>Join a thriving future-forward <span class="rob-accent">community</span></p>
             </div>
-            <a class="app-button web-card-btn" href="#" target="_blank">
-              Try it now!
-            </a>
+            <a class="app-button web-card-btn" href="#" target="_blank">Try it now!</a>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
   <section class="site-section section" id="advantages">
     <div class="container">
       <h3 class="sec-name">Advantages</h3>
-      <h2 class="sec-title">
-        Robert<span class="rob-accent">AI</span> – All in one!<br>
-      </h2>
-      <p class="sec-subtitle">
-        Permissionless. Frictionless. Boundless. Crypto
-      </p>
+      <h2 class="sec-title">Robert<span class="rob-accent">AI</span> – All in one!<br></h2>
+      <p class="sec-subtitle">Permissionless. Frictionless. Boundless. Crypto</p>
 
       <div class="advantage-container">
         <div class="advantage-card">
-          <img src="assets/img/ad1.webp" class="advantage-card-img" alt="advantage-card-img" loading="lazy">
+          <img src="assets/img/ad1.webp" class="advantage-card-img" alt="Decentralized" loading="lazy" width="100" height="100">
           <h3 class="advantage-card-title">Decentralized</h3>
         </div>
         <div class="advantage-card">
-          <img src="assets/img/ad2.webp" class="advantage-card-img" alt="advantage-card-img" loading="lazy">
+          <img src="assets/img/ad2.webp" class="advantage-card-img" alt="Secure" loading="lazy" width="100" height="100">
           <h3 class="advantage-card-title">Secure</h3>
         </div>
         <div class="advantage-card">
-          <img src="assets/img/ad3.webp" class="advantage-card-img" alt="advantage-card-img" loading="lazy">
+          <img src="assets/img/ad3.webp" class="advantage-card-img" alt="Scalable" loading="lazy" width="100" height="100">
           <h3 class="advantage-card-title">Scalable</h3>
         </div>
         <div class="advantage-card">
-          <img src="assets/img/ad4.webp" class="advantage-card-img" alt="advantage-card-img" loading="lazy">
+          <img src="assets/img/ad4.webp" class="advantage-card-img" alt="Simple" loading="lazy" width="100" height="100">
           <h3 class="advantage-card-title">Simple</h3>
         </div>
         <div class="advantage-card">
-          <img src="assets/img/ad5.webp" class="advantage-card-img" alt="advantage-card-img" loading="lazy">
+          <img src="assets/img/ad5.webp" class="advantage-card-img" alt="Affordable" loading="lazy" width="100" height="100">
           <h3 class="advantage-card-title">Affordable</h3>
         </div>
         <div class="advantage-card">
-          <img src="assets/img/ad6.webp" class="advantage-card-img" alt="advantage-card-img" loading="lazy">
+          <img src="assets/img/ad6.webp" class="advantage-card-img" alt="Fast" loading="lazy" width="100" height="100">
           <h3 class="advantage-card-title">Fast</h3>
         </div>
       </div>
@@ -289,84 +282,50 @@
 
       <div class="features-container">
         <div class="features-card">
-          <div class="features-card-header"> 
-            <h4 class="features-card-subtitle">Current Technology</h4> 
-            <h3 class="features-card-title">
-            AI-Powered Decentralized Video Creation
-            </h3> 
+          <div class="features-card-header">
+            <h4 class="features-card-subtitle">Current Technology</h4>
+            <h3 class="features-card-title">AI-Powered Decentralized Video Creation</h3>
           </div>
           <ul class="features-list">
-            <li class="features-list-item">
-            Effortlessly generate videos from text using advanced AI.
-            </li>
-            <li class="features-list-item">
-            Customize content with avatars and natural voiceovers.
-            </li>
-             <li class="features-list-item">
-            On-premise processing ensures total privacy and data control.
-            </li>
-            <li class="features-list-item">
-            Secure transactions powered by our ERC-20 token.
-            </li>
+            <li class="features-list-item">Effortlessly generate videos from text using advanced AI.</li>
+            <li class="features-list-item">Customize content with avatars and natural voiceovers.</li>
+            <li class="features-list-item">On-premise processing ensures total privacy and data control.</li>
+            <li class="features-list-item">Secure transactions powered by our ERC-20 token.</li>
           </ul>
         </div>
         <div class="features-card">
-          <div class="features-card-header"> 
-            <h4 class="features-card-subtitle">Future Vision</h4> 
-            <h3 class="features-card-title">
-              Expanding AI for New Frontiers
-            </h3> 
+          <div class="features-card-header">
+            <h4 class="features-card-subtitle">Future Vision</h4>
+            <h3 class="features-card-title">Expanding AI for New Frontiers</h3>
           </div>
           <ul class="features-list">
-            <li class="features-list-item">
-              Develop AI tools for creating NFTs and Ethereum blockchain tokens.
-            </li>
-            <li class="features-list-item">
-              Build AI-generated websites integrated with token economies.
-            </li>
-             <li class="features-list-item">
-              Open to community feedback and ideas for future developments.
-            </li>
-            <li class="features-list-item">
-              Empower decentralized platforms with innovative AI solutions.
-            </li>
+            <li class="features-list-item">Develop AI tools for creating NFTs and Ethereum blockchain tokens.</li>
+            <li class="features-list-item">Build AI-generated websites integrated with token economies.</li>
+            <li class="features-list-item">Open to community feedback and ideas for future developments.</li>
+            <li class="features-list-item">Empower decentralized platforms with innovative AI solutions.</li>
           </ul>
         </div>
         <div class="features-card">
-          <div class="features-card-header"> 
-            <h4 class="features-card-subtitle">Tokenomics</h4> 
-            <h3 class="features-card-title">
-              AI-Powered Decentralized Video Creation
-            </h3> 
+          <div class="features-card-header">
+            <h4 class="features-card-subtitle">Tokenomics</h4>
+            <h3 class="features-card-title">AI-Powered Decentralized Video Creation</h3>
           </div>
           <ul class="features-list">
-            <li class="features-list-item">
-              Effortlessly generate videos from text using advanced AI.
-            </li>
-            <li class="features-list-item">
-              Customize content with avatars and natural voiceovers.
-            </li>
-             <li class="features-list-item">
-              On-premise processing ensures total privacy and data control.
-            </li>
-            <li class="features-list-item">
-              Secure transactions powered by our ERC-20 token.
-            </li>
+            <li class="features-list-item">Effortlessly generate videos from text using advanced AI.</li>
+            <li class="features-list-item">Customize content with avatars and natural voiceovers.</li>
+            <li class="features-list-item">On-premise processing ensures total privacy and data control.</li>
+            <li class="features-list-item">Secure transactions powered by our ERC-20 token.</li>
           </ul>
         </div>
       </div>
 
       <div class="ecosystem-container">
         <div class="ecosystem-img">
-          <img src="assets/img/ecosystem_graphic.png" alt="ecosystem-img" loading="lazy" loading="lazy">
+          <img src="assets/img/ecosystem_graphic.png" alt="Ecosystem Graphic" loading="lazy" width="300" height="200">
         </div>
         <div class="ecosystem-content">
           <h2 class="sec-name">Ecosystem</h2>
-          <p class="sec-title">
-            dApps.<br>
-            Crypto.<br>
-            Communities.
-          </p>
+          <p class="sec-title">dApps.<br>Crypto.<br>Communities.</p>
         </div>
       </div>
     </div>
@@ -377,19 +336,19 @@
       <div class="container">
         <div class="footer-container">
           <div>
-            <img src="assets/img/header.webp" height="42" width="197" alt="Rob AI Logo" class="footer-logo"> 
+            <img src="assets/img/header.webp" height="42" width="197" alt="Rob AI Logo" class="footer-logo">
           </div>
-          <div class="footer-links"> 
-            <a class="footer-link" href="https://app.ai-robert.com/" target="_blank">App</a> 
-            <a class="footer-link" href="/Whitepaper.pdf" download="" target="_blank">Whitepaper</a>
-            <div class="footer-icon-links"> 
-              <a class="footer-link" href="https://x.com/RobertonERC20" target="_blank" aria-label="Read us on X"> 
-                <img src="assets/img/x.svg" height="50" width="50" aria-hidden="true"> 
-              </a> 
-              <a class="footer-link" href="https://t.me/RobertAIPortal" target="_blank" aria-label="Read us on Telegram"> 
-                <img src="assets/img/telegram.svg" height="50" width="50" aria-hidden="true"> 
-              </a> 
-            </div> 
+          <div class="footer-links">
+            <a class="footer-link" href="https://app.ai-robert.com/" target="_blank">App</a>
+            <a class="footer-link" href="/Whitepaper.pdf" download target="_blank">Whitepaper</a>
+            <div class="footer-icon-links">
+              <a class="footer-link" href="https://x.com/RobertonERC20" target="_blank" aria-label="Read us on X">
+                <img src="assets/img/x.svg" height="50" width="50" alt="X" loading="lazy">
+              </a>
+              <a class="footer-link" href="https://t.me/RobertAIPortal" target="_blank" aria-label="Read us on Telegram">
+                <img src="assets/img/telegram.svg" height="50" width="50" alt="Telegram" loading="lazy">
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -400,8 +359,6 @@
     <i class="icon-angle-up"></i>
   </a>
 
-
-  <script src="js/app.js"></script>
-
+  <script defer src="js/app.js"></script>
 </body>
 </html>
