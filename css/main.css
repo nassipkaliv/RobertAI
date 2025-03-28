@@ -146,6 +146,7 @@ img {
 
 .header-logo {
   max-height: 80px;
+  max-width: 197px;
 }
 
 .header-right {
@@ -358,10 +359,6 @@ img {
   z-index: 9;
   margin-top: 40px;
   gap: 20px;
-}
-
-.video-btn {
-  padding: 8px 0;
 }
 
 .video-container-bottom {
@@ -1311,6 +1308,10 @@ img {
   .video-btn {
     max-width: 180px;
   }
+
+  .video-btn {
+    padding: 8px 0;
+  }
 }
 
 @media (max-width: 744px) {
@@ -1370,6 +1371,21 @@ img {
   .video-btn {
     width: 100%;
     max-width: 100%;
+  }
+
+  .video-container-buttons {
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px 0;
   }
 }
 
