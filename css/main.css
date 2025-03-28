@@ -1,15 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
-  font-display: swap;
-  line-height: 1.6;
-  font-weight: 400;
 }
 
 body {
@@ -79,7 +71,6 @@ img {
   max-width: 1080px !important;
   padding-left: 15px;
   padding-right: 15px;
-  min-height: auto;
 }
 
 .topbar-left {
@@ -150,12 +141,10 @@ img {
   padding-left: 80px !important;
   padding-right: 80px !important;
   justify-content: space-between;
-  min-height: auto;
 }
 
 .header-logo {
   max-height: 80px;
-  max-width: 197px;
 }
 
 .header-right {
@@ -236,7 +225,6 @@ img {
 }
 
 .container {
-  min-height: auto;
   max-width: 1070px;
   width: 100%;
 }
@@ -270,7 +258,6 @@ img {
   width: 100%;
   object-fit: cover;
   height: 180px !important;
-  aspect-ratio: 1 / 1;
 }
 
 .news-card-title {
@@ -372,6 +359,10 @@ img {
   gap: 20px;
 }
 
+.video-btn {
+  padding: 8px 0;
+}
+
 .video-container-bottom {
   grid-row: 1;
   grid-column: 1;
@@ -424,7 +415,7 @@ img {
 
 .hero-card:hover {
   background-color: #2bb2f6;
-  transform: translateY(-10px);
+  margin-top: -10px;
   color: #000;
 }
 
@@ -1319,10 +1310,6 @@ img {
   .video-btn {
     max-width: 180px;
   }
-
-  .video-btn {
-    padding: 8px 0;
-  }
 }
 
 @media (max-width: 744px) {
@@ -1383,21 +1370,6 @@ img {
     width: 100%;
     max-width: 100%;
   }
-
-  .video-container-buttons {
-    position: absolute;
-    bottom: 32px;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    padding: 20px 0;
-  }
 }
 
 
@@ -1441,4 +1413,3 @@ img {
     display: none;
   }
 }
-
