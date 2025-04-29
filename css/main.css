@@ -831,6 +831,10 @@ img {
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
+  max-width: 892px !important;
+=======
+>>>>>>> b5aa80c (upd)
 }
 
 .entry-title {
@@ -859,6 +863,8 @@ img {
 .news-info-content {
   padding-top: 3em;
   padding-bottom: 1.5em;
+<<<<<<< HEAD
+=======
   display: flex;
   gap: 50px;
 }
@@ -906,6 +912,7 @@ img {
   color: #fff;
   font-weight: 600;
   line-height: 1.25;
+>>>>>>> b5aa80c (upd)
 }
 
 .news-banner-img {
@@ -1116,6 +1123,8 @@ img {
 
 
 @media (max-width: 849px) {
+<<<<<<< HEAD
+=======
 
   .news-info-content {
     flex-direction: column;
@@ -1130,6 +1139,7 @@ img {
     padding-top: 10px;
   }
 
+>>>>>>> b5aa80c (upd)
   .back-to-top.hide-for-medium {
     display: none; 
   }
